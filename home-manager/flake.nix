@@ -18,7 +18,7 @@
   in {
     formatter.${system} = pkgs.alejandra;
 
-    homeConfigurations.vlad = home-manager.lib.homeManagerConfiguration {
+    homeConfigurations.sreadmin = home-manager.lib.homeManagerConfiguration {
       inherit pkgs;
 
       modules = [
