@@ -4,7 +4,7 @@
   ...
 }: {
   home = {
-    homeDirectory = "/home/vlad";
+    homeDirectory = "/home/sreadmin";
 
     packages = with pkgs; [
       asciiquarium
@@ -56,7 +56,7 @@
     ];
 
     stateVersion = "22.11";
-    username = "vlad";
+    username = "sreadmin";
   };
 
   nixpkgs.config = {
