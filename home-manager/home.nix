@@ -30,6 +30,7 @@
       graalvm17-ce
       graphviz
       gum
+      go
       heroku
       htop
       ipfetch
