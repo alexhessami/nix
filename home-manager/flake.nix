@@ -1,4 +1,4 @@
-{
+s{
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
@@ -22,7 +22,7 @@
       inherit pkgs;
 
       modules = [
-        ./home.nix
+        /home/sreadmin/nix/home-manager/home.nix
       ];
     };
   };
