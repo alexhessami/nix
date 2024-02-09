@@ -22,7 +22,7 @@
       inherit pkgs;
 
       modules = [
-        /home/sreadmin/nix/home-manager/home.nix
+        ./home.nix
       ];
     };
   };
